@@ -1,0 +1,12 @@
+streamlit
+anthropic
+reportlab
+fastapi
+uvicorn
+python-multipart
+pydantic
+langgraph
+langchain-core
+langchain-anthropic
+pytest
+pytest-asyncio
