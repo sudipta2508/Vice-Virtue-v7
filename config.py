@@ -11,8 +11,8 @@ DATA_XLSX_PATH = PROJECT_ROOT / "LCIA_Virtues_Vices_Definition.xlsx"
 DEFAULT_MODEL = "claude-sonnet-5-5"
 # Cheaper/faster model for Combined Analysis (stage 2)
 FAST_MODEL = "claude-haiku-4-5-20251001"
-DEFAULT_MAX_TOKENS = 6000
-CLASSIFICATION_MAX_TOKENS = 3000
+DEFAULT_MAX_TOKENS = 16000
+CLASSIFICATION_MAX_TOKENS = 12000
 DEFAULT_TEMPERATURE = 0
 # Max dimensions processed concurrently in the assessment graph
 MAX_CONCURRENT_DIMENSIONS = 4
